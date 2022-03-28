@@ -1,4 +1,4 @@
-#Application deployed on Google Cloud Platform (GCP) (https://rearc-app-mxhfbbd3vq-ue.a.run.app)
+# Application deployed on Google Cloud Platform (GCP) (https://rearc-app-mxhfbbd3vq-ue.a.run.app)
 
 -Originally deployed the app using Google’s App Engine Admin API (SaaS), which is why the app.yaml file is committed in the repo.
 
