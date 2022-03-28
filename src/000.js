@@ -1,12 +1,12 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 8080
 
 app.get('/', function (req, res) {
 const { exec } = require('child_process');
 exec('bin/001', (err, stdout, stderr) => {
   if (err) {
-    return res.send(`${stderr}`);
+    return res.send('hey' +`${stderr}`);
   }
   return res.send(`${stdout}`);
 });
